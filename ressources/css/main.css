@@ -1,0 +1,7 @@
+.banner {
+    background-image: url(../images/pexels-belle-co-1000445.jpg);
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
