@@ -8,14 +8,37 @@ body {
 }
 
 .banner, h1, h2, h3, h4, h5, h6, a {
-    font-family: "Kaushan Script";
+    font-family: "Kaushan Script", "Papyrus", "sans-serif";
 }
 
 .banner {
-
     background-image: url(../images/pexels-belle-co-1000445.jpg);
     height: 500px; 
-    background-position: center; 
+    width: 100%;
+    max-width: 1000px;
+    background-position: top; 
     background-repeat: no-repeat; 
-    background-size: cover; 
+    background-size: contain;
+    color: white;
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 0 auto;
 }
+.banner h1 {
+    margin: 10% 20%;
+}
+
+.banner h2 {
+    margin: 5% 10%;
+}
+
+/* Damit die Schrift ab einem gewissen Punkt nicht größer als das Bild wird */
+@media screen and (min-width: 500px) {
+    .banner h1{
+       font-size: 50px;
+    }
+    .banner h2 {
+        font-size: 28px;
+    }
+  }
+
