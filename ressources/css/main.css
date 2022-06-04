@@ -56,7 +56,8 @@ nav a:hover {
 }
 
 .banner h2 {
-    margin: 5% 10%
+    margin-top: 30%;
+    font-size: 3vw;
 }
 
 header h3 {
@@ -81,21 +82,32 @@ header h3 {
 
 
 /* Damit die Schrift ab einem gewissen Punkt nicht größer als das Bild wird */
+/*
 @media screen and (min-width: 750px) {
     .banner h1{
        font-size: 50px;
     }
     .banner h2 {
-        font-size: 28px;
+        font-size: 14px;
     }
   }
-
+*/
   /* Der nachfolgende Paragraph nicht zu weit nach unten rutscht,
     wenn der Bildschirm kleiner wird */
 @media screen and (max-width: 750px) {
     .banner {
         height: 100%;
     }
+}
+
+@media screen and (min-width: 750px) {
+    .banner h2 {
+        margin-top: 250px;
+        font-size: 28px;
+    }
+    .banner h1{
+        font-size: 50px;
+     }
 }
 
 @media screen and (min-width: 300px) {
